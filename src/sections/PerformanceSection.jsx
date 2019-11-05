@@ -42,7 +42,6 @@ const PerformanceSection = () => {
       name: 'Travelr',
       description:
         '古い写真と新しい写真を比較して楽しむ写真投稿サービスです。デモ用に作成したものです。',
-        { name: 'GCP Cloud SQL', description: 'データベース' },
       webpageURL: 'http://travelr.yuuniworks.com',
       githubURL: 'https://github.com/junkboy0315/travelr',
       blogPath: '/blog/2018-07-31-デモシステムを作成しました/',
