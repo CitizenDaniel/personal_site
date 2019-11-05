@@ -4,7 +4,6 @@ import SEO from '../components/SEO';
 import '../css/global.css';
 import BlogSection from '../sections/BlogSection';
 import FooterSection from '../sections/FooterSection';
-import GaiyouSection from '../sections/GaiyouSection';
 import PerformanceSection from '../sections/PerformanceSection';
 import ProfileSection from '../sections/ProfileSection';
 import SkillSection from '../sections/SkillSection';
@@ -39,7 +38,6 @@ class IndexPage extends React.Component {
         )}
 
         <TopSection />
-        <GaiyouSection setCurrentModal={this.setCurrentModal} />
         <SkillSection setCurrentModal={this.setCurrentModal} />
         <PerformanceSection />
         <ProfileSection />
