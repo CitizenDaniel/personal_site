@@ -41,17 +41,17 @@ const TopSection = () => {
       <div css={styles.description}>
         My name is Dan Jacobsen<br />
         <a
-          href="https://goo.gl/maps/SLzd1i8PEaPt3Ksv9"
+          href="https://goo.gl/maps/HjyoY7NJ9j92"
           css={{ color: 'white' }}
           target="_blank"
           rel="noopener noreferrer"
         >
           I live in Vancouver, BC<IconExtLink color="#fff" />
         </a><br />
-        I make stuff.
+        I make software products
       </div>
       <LinkForScroll
-        to="performance""
+        to="gaiyou"
         smooth
         duration={150}
         offset={-50}
