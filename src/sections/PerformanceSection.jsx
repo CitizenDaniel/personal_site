@@ -19,7 +19,6 @@ const PerformanceSection = () => {
       name: 'react-compare-image',
       description:
         'スライダを使って画像を比較するためのReactコンポーネントです。世界中で利用されています。',
-      techStack: [{ name: 'React', description: 'UI' }],
       webpageURL: 'https://www.npmjs.com/package/react-compare-image',
       githubURL: 'https://github.com/junkboy0315/react-compare-image',
       imgPath: jissekiCompare,
@@ -27,13 +26,6 @@ const PerformanceSection = () => {
     {
       name: 'Pairwise Pict Online',
       description: 'ペアワイズ法に基づきテストケースを生成できるサービスです。',
-      techStack: [
-        { name: 'create-react-app', description: 'Front-end Framework' },
-        { name: 'CircleCI', description: 'CI/CD' },
-        { name: 'GCP Cloud Build', description: 'CI/CD' },
-        { name: 'GCP Cloud Run', description: 'コンテナ管理' },
-        { name: 'Node.js', description: 'APIサーバ' },
-      ],
       webpageURL: 'https://pairwise.yuuniworks.com',
       githubURL: 'https://github.com/junkboy0315/pairwise-pict-online',
       imgPath: jissekiPict,
@@ -42,13 +34,6 @@ const PerformanceSection = () => {
       name: 'Portfolio Rebalancer',
       description:
         'ポートフォリオのリバランスを簡単に行えるようにすることで、資産運用を支援するツールです。',
-      techStack: [
-        { name: 'Vue.js/Vuex', description: 'UI/State管理' },
-        { name: 'Nuxt.js', description: 'Vue.jsフレームワーク' },
-        { name: 'Bulma', description: 'CSSライブラリ' },
-        { name: 'Firebase Auth', description: '認証管理' },
-        { name: 'Firebase Firestore', description: 'データベース' },
-      ],
       webpageURL: 'http://rebalancer.yuuniworks.com',
       githubURL: 'https://github.com/junkboy0315/rebalancer',
       imgPath: jissekiRebalancer,
@@ -57,15 +42,6 @@ const PerformanceSection = () => {
       name: 'Travelr',
       description:
         '古い写真と新しい写真を比較して楽しむ写真投稿サービスです。デモ用に作成したものです。',
-      techStack: [
-        { name: 'React/Redux', description: 'UI/State管理' },
-        { name: 'material-ui', description: 'UIライブラリ' },
-        { name: 'Workbox', description: 'PWA対応' },
-        { name: 'jest/enzyme', description: 'テスト' },
-        {
-          name: 'Firebase',
-          description: '認証管理、ストレージ、ファンクション',
-        },
         { name: 'GCP Cloud SQL', description: 'データベース' },
       ],
       webpageURL: 'http://travelr.yuuniworks.com',
@@ -77,10 +53,6 @@ const PerformanceSection = () => {
       name: 'Yuuniworks Notes',
       description:
         'VuePressで作成したドキュメントサイトです。Algoliaによる全文検索を実装しています。',
-      techStack: [
-        { name: 'VuePress', description: 'Static Site Generator' },
-        { name: 'Algolia DocSearch', description: '高度な全文検索' },
-      ],
       webpageURL: 'https://note.yuuniworks.com',
       githubURL: 'https://github.com/junkboy0315/markdown-notes',
       imgPath: jissekiNote,
@@ -89,14 +61,6 @@ const PerformanceSection = () => {
       name: 'Yuuniworks Web',
       description:
         '当サイトです。静的サイトジェネレータのGatsbyを使って作成しています。',
-      techStack: [
-        { name: 'Gatsby', description: 'Static Site Generator' },
-        { name: 'GraphQL', description: 'クエリ言語' },
-        { name: 'AWS Lambda', description: '問い合わせフォーム用バックエンド' },
-        { name: 'AWS SES', description: '問い合わせフォーム用バックエンド' },
-        { name: 'Netlify CMS', description: 'CMS' },
-        { name: 'Sentry', description: 'クライアントサイドのエラー収集' },
-      ],
       webpageURL: 'https://www.yuuniworks.com',
       githubURL: 'https://github.com/junkboy0315/yuuni-web',
       blogPath: '/blog/2018-04-09-jamstackなwebサイトの作成/',
@@ -143,26 +107,11 @@ const PerformanceSection = () => {
         background: '#eee',
       },
     },
-    techStackGrid: {
-      borderTop: '1px dotted #999',
-      display: 'grid',
-      fontSize: '0.8rem',
-      gridGap: '0.4rem',
-      gridTemplateColumns: '1fr 1fr',
-      marginTop: '0.8rem',
-      paddingTop: '1rem',
-      ' > span': {
-        cursor: 'default',
-      },
-      ' > span::before': {
-        content: '- ',
-      },
-    },
   };
 
   return (
     <SectionContainer id="performance">
-      <SectionHeader text="実績" colorNumber="1" />
+      <SectionHeader text="Media" colorNumber="1" />
 
       {/* グリッド始点 */}
       <div css={styles.grid}>
@@ -215,23 +164,6 @@ const PerformanceSection = () => {
               </Link>
             )}
 
-            <ul css={styles.techStackGrid}>
-              {performance.techStack.map(tech => (
-                <span
-                  data-for={tech.name + tech.description}
-                  data-tip
-                  key={tech.name}
-                >
-                  {tech.name}
-                  <ReactTooltip
-                    id={tech.name + tech.description}
-                    effect="solid"
-                  >
-                    {tech.description}
-                  </ReactTooltip>
-                </span>
-              ))}
-            </ul>
           </WhiteBox>
         ))}
       </div>

@@ -6,7 +6,6 @@ import BlogSection from '../sections/BlogSection';
 import FooterSection from '../sections/FooterSection';
 import PerformanceSection from '../sections/PerformanceSection';
 import ProfileSection from '../sections/ProfileSection';
-import SkillSection from '../sections/SkillSection';
 import TopSection from '../sections/TopSection';
 import Layout from '../components/Layout';
 
@@ -38,7 +37,6 @@ class IndexPage extends React.Component {
         )}
 
         <TopSection />
-        <SkillSection setCurrentModal={this.setCurrentModal} />
         <PerformanceSection />
         <ProfileSection />
         <BlogSection />
