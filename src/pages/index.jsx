@@ -2,10 +2,8 @@ import React from 'react';
 import ModalConductor from '../components/ModalConductor';
 import SEO from '../components/SEO';
 import '../css/global.css';
-import BlogSection from '../sections/BlogSection';
 import FooterSection from '../sections/FooterSection';
 import PerformanceSection from '../sections/PerformanceSection';
-import ProfileSection from '../sections/ProfileSection';
 import TopSection from '../sections/TopSection';
 import Layout from '../components/Layout';
 
@@ -38,8 +36,6 @@ class IndexPage extends React.Component {
 
         <TopSection />
         <PerformanceSection />
-        <ProfileSection />
-        <BlogSection />
         <FooterSection setCurrentModal={this.setCurrentModal} />
 
         <SEO />
