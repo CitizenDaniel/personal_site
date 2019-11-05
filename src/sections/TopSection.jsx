@@ -41,16 +41,16 @@ const TopSection = () => {
         <img src={logoSvg} alt="Yuuniworksのロゴ" />
       </h1>
       <div css={styles.description}>
-        田村翔太と申します。<br />
+        My name is Dan Jacobsen<br />
         <a
           href="https://goo.gl/maps/HjyoY7NJ9j92"
           css={{ color: 'white' }}
           target="_blank"
           rel="noopener noreferrer"
         >
-          島根県浜田市<IconExtLink color="#fff" />
-        </a>を拠点に活動する<br />
-        フルスタックエンジニアです。
+          Vancouver, BC<IconExtLink color="#fff" />
+        </a>Canada<br />
+        I make software products。
       </div>
       <LinkForScroll
         to="gaiyou"
@@ -59,7 +59,7 @@ const TopSection = () => {
         offset={-50}
         css={styles.arrow}
       >
-        <img src={arrowSvg} alt="下向きの矢印" />
+        <img src={arrowSvg} alt="Scroll down" />
       </LinkForScroll>
     </section>
   );
