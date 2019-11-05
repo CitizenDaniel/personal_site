@@ -37,9 +37,7 @@ const TopSection = () => {
 
   return (
     <section id="top" css={styles.container}>
-      <h1 css={styles.logo}>
-        <img src={logoSvg} alt="Yuuniworksのロゴ" />
-      </h1>
+
       <div css={styles.description}>
         My name is Dan Jacobsen<br />
         <a
@@ -48,9 +46,9 @@ const TopSection = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Vancouver, BC<IconExtLink color="#fff" />
-        </a>Canada<br />
-        I make software products。
+          I live in Vancouver, BC<IconExtLink color="#fff" />
+        </a><br />
+        I make software products
       </div>
       <LinkForScroll
         to="gaiyou"
