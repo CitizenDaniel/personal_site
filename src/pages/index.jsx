@@ -39,10 +39,10 @@ class IndexPage extends React.Component {
         )}
 
         <TopSection />
-        <GaiyouSection setCurrentModal={this.setCurrentModal} />
+        <!-- <GaiyouSection setCurrentModal={this.setCurrentModal} /> -->
         <SkillSection setCurrentModal={this.setCurrentModal} />
         <PerformanceSection />
-        <ProfileSection />
+        <!-- <ProfileSection /> -->
         <BlogSection />
         <FooterSection setCurrentModal={this.setCurrentModal} />
 
