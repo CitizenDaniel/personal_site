@@ -14,7 +14,7 @@ const FooterSection = props => {
     {
       imgPath: svgMail,
       description: 'dan@danjacobsen.com',
-      link: 'mailto:info@yuuniworks.com',
+      link: 'mailto:dan@danjacobsen.com',
     },
     {
       imgPath: svgGithub,
