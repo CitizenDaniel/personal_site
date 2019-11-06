@@ -6,21 +6,25 @@ import logoSvg from '../icons/logo.svg';
 import topImageJpg from '../images/top-image.jpg';
 
 const TopSection = () => {
-  const styles = {
-    container: {
-      alignItems: 'center',
-      background: `#6292F1 url("${topImageJpg}") no-repeat center center`,
-      backgroundSize: 'cover',
-      display: 'flex',
-      flexDirection: 'column',
-      height: '100vh',
-      justifyContent: 'center',
-      paddingTop: '40px',
-    },
-    logo: {
-      width: '450px',
-      maxWidth: '80%',
-    },
+    const styles = {
+      container: {
+        alignItems: 'center',
+        background: `#6292F1 url("${topImageJpg}") no-repeat center center`,
+        backgroundSize: 'cover',
+        display: 'flex',
+        flexDirection: 'column',
+        height: '100vh',
+        justifyContent: 'center',
+        paddingTop: '40px',
+      },
+      logo: {
+        width: '450px',
+        maxWidth: '80%',
+      },
+      title: {
+        color: '#fff',
+        font-size: '30px',
+      },
     description: {
       color: '#fff',
       textAlign: 'center',
@@ -28,7 +32,7 @@ const TopSection = () => {
     arrow: {
       bottom: 0,
       cursor: 'pointer',
-      marginBottom: '54px',
+      marginBottom: '1.875em',
       position: 'absolute',
       width: '45px',
       animation: 'downArrow 0.8s ease-out infinite',
