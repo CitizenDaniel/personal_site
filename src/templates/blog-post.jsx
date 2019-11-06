@@ -12,7 +12,6 @@ import SectionContainer from '../components/SectionContainer';
 import SectionHeader from '../components/SectionHeader';
 import SEO from '../components/SEO';
 import WhiteBox from '../components/WhiteBox';
-import profileJpg from '../images/profile.jpg';
 import { rhythm } from '../utils/typography';
 
 const propTypes = {
@@ -204,7 +203,6 @@ export default function BlogPost(props) {
 
           <WhiteBox>
             <footer css={styles.footer}>
-              <img src={profileJpg} alt="profile" />
               <div>
                 <p>田村 翔太</p>
                 <p>
