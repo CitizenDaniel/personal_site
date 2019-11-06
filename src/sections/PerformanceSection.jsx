@@ -5,7 +5,7 @@ import IconExtLink from '../components/IconExtLink';
 import SectionContainer from '../components/SectionContainer';
 import SectionHeader from '../components/SectionHeader';
 import WhiteBox from '../components/WhiteBox';
-import jissekiCompare from '../images/jisseki-compare.png';
+import dalio0 from '../images/dalio0.png';
 import jissekiNote from '../images/jisseki-note.png';
 import jissekiPict from '../images/jisseki-pict.png';
 import jissekiRebalancer from '../images/jisseki-rebalancer.jpg';
@@ -18,10 +18,10 @@ const PerformanceSection = () => {
     {
       name: 'react-compare-image',
       description:
-        'スライダを使って画像を比較するためのReactコンポーネントです。世界中で利用されています。',
-      webpageURL: 'https://www.npmjs.com/package/react-compare-image',
-      githubURL: 'https://github.com/junkboy0315/react-compare-image',
-      imgPath: jissekiCompare,
+        'Ray Dalio - The World Has Gone Mad and the System is Broken',
+      webpageURL: 'https://www.linkedin.com/pulse/world-has-gone-mad-system-broken-ray-dalio/',
+      githubURL: 'https://www.linkedin.com/pulse/world-has-gone-mad-system-broken-ray-dalio/',
+      imgPath: dalio0,
     },
     {
       name: 'Pairwise Pict Online',
