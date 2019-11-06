@@ -6,11 +6,6 @@ import SectionContainer from '../components/SectionContainer';
 import SectionHeader from '../components/SectionHeader';
 import WhiteBox from '../components/WhiteBox';
 import dalio0 from '../images/dalio0.png';
-import jissekiNote from '../images/jisseki-note.png';
-import jissekiPict from '../images/jisseki-pict.png';
-import jissekiRebalancer from '../images/jisseki-rebalancer.jpg';
-import jissekiTravelrPng from '../images/jisseki-travelr.png';
-import jissekiYuuniJpg from '../images/jisseki-yuuni.jpg';
 import { rhythm } from '../utils/typography';
 
 const PerformanceSection = () => {
@@ -28,7 +23,6 @@ const PerformanceSection = () => {
       description: 'ペアワイズ法に基づきテストケースを生成できるサービスです。',
       webpageURL: 'https://pairwise.yuuniworks.com',
       githubURL: 'https://github.com/junkboy0315/pairwise-pict-online',
-      imgPath: jissekiPict,
     },
     {
       name: 'Portfolio Rebalancer',
@@ -36,7 +30,7 @@ const PerformanceSection = () => {
         'ポートフォリオのリバランスを簡単に行えるようにすることで、資産運用を支援するツールです。',
       webpageURL: 'http://rebalancer.yuuniworks.com',
       githubURL: 'https://github.com/junkboy0315/rebalancer',
-      imgPath: jissekiRebalancer,
+      imgPath: dalio0,
     },
     {
       name: 'Travelr',
@@ -45,7 +39,6 @@ const PerformanceSection = () => {
       webpageURL: 'http://travelr.yuuniworks.com',
       githubURL: 'https://github.com/junkboy0315/travelr',
       blogPath: '/blog/2018-07-31-デモシステムを作成しました/',
-      imgPath: jissekiTravelrPng,
     },
     {
       name: 'Yuuniworks Notes',
@@ -53,7 +46,6 @@ const PerformanceSection = () => {
         'VuePressで作成したドキュメントサイトです。Algoliaによる全文検索を実装しています。',
       webpageURL: 'https://note.yuuniworks.com',
       githubURL: 'https://github.com/junkboy0315/markdown-notes',
-      imgPath: jissekiNote,
     },
     {
       name: 'Yuuniworks Web',
@@ -62,7 +54,6 @@ const PerformanceSection = () => {
       webpageURL: 'https://www.yuuniworks.com',
       githubURL: 'https://github.com/junkboy0315/yuuni-web',
       blogPath: '/blog/2018-04-09-jamstackなwebサイトの作成/',
-      imgPath: jissekiYuuniJpg,
     },
   ];
 
