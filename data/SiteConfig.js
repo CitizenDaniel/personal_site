@@ -1,11 +1,11 @@
 module.exports = {
-  corporationName: 'Yuuniworks',
-  siteTitle: 'Yuuniworks / 島根のフリーランスエンジニア',
+  corporationName: 'danjacobsen.com',
+  siteTitle: 'danjacobsen.com',
   siteDescription:
-    'フリーランスのフルスタックエンジニアです。Python/Node.js/GoによるAPIの開発、React/Vue.js等によるSPAの開発などを行っています。',
+    'Personal site and interesting links',
   siteKeywords:
-    'SPA,Serverless,サーバーレス,Lambda,AWS,React,Redux,Angular,フリーランス',
-  siteUrl: 'https://www.yuuniworks.com',
+    'Product,Design,Development',
+  siteUrl: 'https://www.danjacobsen.com',
   siteLogo: '/images/logo_for_schema.png',
-  googleAnalyticsID: 'UA-116967778-1',
+  googleAnalyticsID: 'asdf',
 };
