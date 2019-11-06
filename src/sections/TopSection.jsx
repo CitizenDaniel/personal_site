@@ -23,7 +23,7 @@ const TopSection = () => {
       },
       title: {
         color: '#fff',
-        fontSize: '10em',
+        fontSize: '40px',
       },
     description: {
       color: '#fff',
@@ -42,9 +42,11 @@ const TopSection = () => {
   return (
     <section id="top" css={styles.container}>
 
-      <div css={styles.description}>
+      <div css={styles.title}>
         My name is Dan Jacobsen<br />
-        <a
+      </div>
+      <div css={styles.description}>
+      <a
           href="https://goo.gl/maps/XXiZ7qvMYNJNqfDp8"
           css={{ color: 'white' }}
           target="_blank"
