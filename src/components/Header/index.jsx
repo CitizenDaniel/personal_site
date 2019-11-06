@@ -188,25 +188,13 @@ class Header extends React.Component {
     };
 
     const menuItem = [
-      { name: '概要', id: 'gaiyou', path: '/#gaiyou' },
-      { name: 'スキル', id: 'skill', path: '/#skill' },
-      { name: '実績', id: 'performance', path: '/#performance' },
-      { name: 'プロフィール', id: 'profile', path: '/#profile' },
-      { name: '問い合わせ', id: 'contact', path: '/#contact' },
-      { name: 'ブログ', id: 'blog', path: '/blog/' },
+      { name: 'Articles', id: 'performance', path: '/#performance' },
+      { name: 'Contact', id: 'contact', path: '/#contact' },
+      { name: 'Blog', id: 'blog', path: '/blog/' },
     ];
 
     return (
       <nav css={styles.navbar}>
-        {isRootPath ? (
-          <LinkForScroll to="top" smooth duration={150} css={styles.logo}>
-            <img src={logoSvg} alt="Yuuniworksのロゴ" />
-          </LinkForScroll>
-        ) : (
-          <Link to="/" css={styles.logo}>
-            <img src={logoSvg} alt="Yuuniworksのロゴ" />
-          </Link>
-        )}
 
         <ul css={styles.menu}>
           {menuItem.map(item => {
