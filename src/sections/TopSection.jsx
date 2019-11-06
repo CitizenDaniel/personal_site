@@ -23,7 +23,7 @@ const TopSection = () => {
       },
       title: {
         color: '#fff',
-        fontSize: '40px',
+        fontSize: '32px',
       },
     description: {
       color: '#fff',
