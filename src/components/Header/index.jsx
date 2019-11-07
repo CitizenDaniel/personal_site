@@ -190,7 +190,10 @@ class Header extends React.Component {
     const menuItem = [
       { name: 'Articles', id: 'performance', path: '/#performance' },
       { name: 'Contact', id: 'contact', path: '/#contact' },
+      { /*
       { name: 'Blog', id: 'blog', path: '/blog/' },
+      */
+      }
     ];
 
     return (
