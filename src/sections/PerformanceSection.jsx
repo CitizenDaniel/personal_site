@@ -129,6 +129,7 @@ const performanceSection = () => {
           ))}
         </div>
         <br/>
+        <sectionHeader text="Listening to" colorNumber="1" />
 
         <div css={styles.grid}>
             {music.map(performance => (
