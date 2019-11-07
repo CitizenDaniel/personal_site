@@ -1,42 +1,42 @@
-import react from 'react';
+import React from 'react';
 import { Link as LinkForScroll } from 'react-scroll';
-import iconExtLink from '../components/IconExtLink';
+import IconExtLink from '../components/IconExtLink';
 import arrowSvg from '../icons/arrow.svg';
 import logoSvg from '../icons/logo.svg';
 import topImageJpg from '../images/crater.jpg';
 
-const topSection = () => {
+const TopSection = () => {
     const styles = {
       container: {
-        alignItems: "center",
+        alignItems: 'center',
         background: `#6292F1 url("${topImageJpg}") no-repeat center center`,
-        backgroundSize: "cover",
-        display: "flex",
-        flexDirection: "column",
-        height: "100vh",
-        justifyContent: "center",
-        paddingTop: "40px"
+        backgroundSize: 'cover',
+        display: 'flex',
+        flexDirection: 'column',
+        height: '100vh',
+        justifyContent: 'center',
+        paddingTop: '40px',
       },
       logo: {
-        width: "450px",
-        maxWidth: "80%"
+        width: '450px',
+        maxWidth: '80%',
       },
       title: {
-        color: "#fff",
-        fontSize: "32px"
+        color: '#fff',
+        fontSize: '32px',
       },
     description: {
-      color: "#fff",
-      textAlign: "center"
+      color: '#fff',
+      textAlign: 'center',
     },
     arrow: {
       bottom: 0,
-      cursor: "pointer",
-      marginBottom: "1.875em",
-      position: "absolute",
-      width: "45px",
-      animation: "downArrow 0.8s ease-out infinite"
-    }
+      cursor: 'pointer',
+      marginBottom: '1.875em',
+      position: 'absolute',
+      width: '45px',
+      animation: 'downArrow 0.8s ease-out infinite',
+    },
   };
 
   return (
@@ -52,7 +52,7 @@ const topSection = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          I live in Vancouver, BC<iconExtLink color="#fff" />
+          I live in Vancouver, BC<IconExtLink color="#fff" />
         </a><br />
         I make stuff.
       </div>
@@ -69,4 +69,4 @@ const topSection = () => {
   );
 };
 
-export default topSection;
+export default TopSection;
