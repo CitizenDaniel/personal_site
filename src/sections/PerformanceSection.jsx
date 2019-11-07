@@ -7,25 +7,30 @@ import SectionHeader from '../components/SectionHeader';
 import WhiteBox from '../components/WhiteBox';
 import dalio0 from '../images/dalio0.png';
 import harari0 from '../images/harari0.jpg'
+import duke0 from '../images/duke0.jpeg'
 import { rhythm } from '../utils/typography';
 
 const PerformanceSection = () => {
-  const performances = [
-    {
-      name: 'Ray Dalio - The World Has Gone Mad and the System is Broken',
-      description:
-        'A current wealth fund manager and historic entrepreneur\'s take on the current state of the economy.',
-      webpageURL: 'https://www.linkedin.com/pulse/world-has-gone-mad-system-broken-ray-dalio/',
-      githubURL: 'https://www.linkedin.com/pulse/world-has-gone-mad-system-broken-ray-dalio/',
-      imgPath: dalio0,
-    },
-    {
-      name: 'Yuval Noah Harari - Homo Deus',
-      description: 'Dozens of fascinating questions about the future of liberalism.',
-      webpageURL: 'https://www.ynharari.com/book/homo-deus/',
-      githubURL: 'https://github.com/junkboy0315/pairwise-pict-online',
-      imgPath: harari0,
-    },
+    const performances = [
+      {
+        name: 'Ray Dalio - The World Has Gone Mad and the System is Broken',
+        description:
+          'A current wealth fund manager and historic entrepreneur\'s take on the current state of the economy.',
+        webpageURL: 'https://www.linkedin.com/pulse/world-has-gone-mad-system-broken-ray-dalio/',
+        imgPath: dalio0,
+      },
+      {
+        name: 'Yuval Noah Harari - Homo Deus',
+        description: 'Dozens of fascinating questions about the future of liberalism.',
+        webpageURL: 'https://www.ynharari.com/book/homo-deus/',
+        imgPath: harari0,
+      },
+      {
+        name: 'Annie Duke - Thinking in Bets',
+        description: 'A really compelling read about making choices with imperfect information.',
+        webpageURL: 'https://www.amazon.com/Thinking-Bets-Making-Smarter-Decisions/dp/0735216355',
+        imgPath: duke0,
+        },
     
   ];
 
