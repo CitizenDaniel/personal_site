@@ -102,18 +102,6 @@ const PerformanceSection = () => {
 
             <p css={styles.description}>{performance.description}</p>
 
-            {performance.githubURL ? (
-              <a
-                href={performance.githubURL}
-                target="_blank"
-                rel="noopener noreferrer"
-                css={styles.externalLink}
-              >
-                ソースコード
-              </a>
-            ) : (
-              <div style={{ color: 'transparent' }}>_</div>
-            )}
 
             {performance.blogPath && (
               <Link
