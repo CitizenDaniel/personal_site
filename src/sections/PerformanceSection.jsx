@@ -6,55 +6,27 @@ import SectionContainer from '../components/SectionContainer';
 import SectionHeader from '../components/SectionHeader';
 import WhiteBox from '../components/WhiteBox';
 import dalio0 from '../images/dalio0.png';
+import harari0 from '../images/harari0.jpg'
 import { rhythm } from '../utils/typography';
 
 const PerformanceSection = () => {
   const performances = [
     {
-      name: 'react-compare-image',
+      name: 'Ray Dalio - The World Has Gone Mad and the System is Broken',
       description:
-        'Ray Dalio - The World Has Gone Mad and the System is Broken',
+        'A current wealth fund manager and historic entrepreneur\'s take on the current state of the economy.',
       webpageURL: 'https://www.linkedin.com/pulse/world-has-gone-mad-system-broken-ray-dalio/',
       githubURL: 'https://www.linkedin.com/pulse/world-has-gone-mad-system-broken-ray-dalio/',
       imgPath: dalio0,
     },
     {
-      name: 'Pairwise Pict Online',
-      description: 'ペアワイズ法に基づきテストケースを生成できるサービスです。',
-      webpageURL: 'https://pairwise.yuuniworks.com',
+      name: 'Yuval Noah Harari - Homo Deus',
+      description: 'Dozens of fascinating questions about the future of liberalism.',
+      webpageURL: 'https://www.ynharari.com/book/homo-deus/',
       githubURL: 'https://github.com/junkboy0315/pairwise-pict-online',
+      ingPath: harari0,
     },
     {
-      name: 'Portfolio Rebalancer',
-      description:
-        'ポートフォリオのリバランスを簡単に行えるようにすることで、資産運用を支援するツールです。',
-      webpageURL: 'http://rebalancer.yuuniworks.com',
-      githubURL: 'https://github.com/junkboy0315/rebalancer',
-      imgPath: dalio0,
-    },
-    {
-      name: 'Travelr',
-      description:
-        '古い写真と新しい写真を比較して楽しむ写真投稿サービスです。デモ用に作成したものです。',
-      webpageURL: 'http://travelr.yuuniworks.com',
-      githubURL: 'https://github.com/junkboy0315/travelr',
-      blogPath: '/blog/2018-07-31-デモシステムを作成しました/',
-    },
-    {
-      name: 'Yuuniworks Notes',
-      description:
-        'VuePressで作成したドキュメントサイトです。Algoliaによる全文検索を実装しています。',
-      webpageURL: 'https://note.yuuniworks.com',
-      githubURL: 'https://github.com/junkboy0315/markdown-notes',
-    },
-    {
-      name: 'Yuuniworks Web',
-      description:
-        '当サイトです。静的サイトジェネレータのGatsbyを使って作成しています。',
-      webpageURL: 'https://www.yuuniworks.com',
-      githubURL: 'https://github.com/junkboy0315/yuuni-web',
-      blogPath: '/blog/2018-04-09-jamstackなwebサイトの作成/',
-    },
   ];
 
   const styles = {
