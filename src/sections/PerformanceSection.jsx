@@ -79,106 +79,99 @@ const performanceSection = () => {
       ':hover': {
         background: "#eee"
       }
-    },
-    sectionGrid: {
-      rowGap: rhythm(2)
     }
   };
 
   return (
     <sectionContainer id="performance">
-      <div css={styles.sectionGrid}>
-        <div>
-          <sectionHeader text="Reading" colorNumber="1" />
+      <sectionHeader text="Reading" colorNumber="1" />
 
-          <div css={styles.grid}>
-            {readings.map(performance => (
-              <whiteBox key={performance.name} css={styles.whiteBox}>
-                <a
-                  href={performance.webpageURL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src={performance.imgPath}
-                    css={styles.itemImage}
-                    alt={performance.name}
-                  />
-                </a>
+      <div css={styles.grid}>
+        {readings.map(performance => (
+          <whiteBox key={performance.name} css={styles.whiteBox}>
+            <a
+              href={performance.webpageURL}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={performance.imgPath}
+                css={styles.itemImage}
+                alt={performance.name}
+              />
+            </a>
 
-                <a
-                  href={performance.webpageURL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  css={styles.itemTitle}
-                >
-                  {performance.name}
-                  <iconExtLink />
-                </a>
+            <a
+              href={performance.webpageURL}
+              target="_blank"
+              rel="noopener noreferrer"
+              css={styles.itemTitle}
+            >
+              {performance.name}
+              <iconExtLink />
+            </a>
 
-                <p css={styles.description}>{performance.description}</p>
+            <p css={styles.description}>{performance.description}</p>
 
 
-                {performance.blogPath && (
-                  <link
-                    to={performance.blogPath}
-                    target="_blank"
-                    css={styles.externalLink}
-                  >
-                    関連ブログ
-                  </link>
-                )}
+            {performance.blogPath && (
+              <link
+                to={performance.blogPath}
+                target="_blank"
+                css={styles.externalLink}
+              >
+                関連ブログ
+              </link>
+            )}
 
-              </whiteBox>
-            ))}
-          </div>
-        </div>
-        <div>
-          <sectionHeader text="Listening to" colorNumber="1" />
-
-          <div css={styles.grid}>
-            {music.map(performance => (
-              <whiteBox key={performance.name} css={styles.whiteBox}>
-                <a
-                  href={performance.webpageURL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src={performance.imgPath}
-                    css={styles.itemImage}
-                    alt={performance.name}
-                  />
-                </a>
-
-                <a
-                  href={performance.webpageURL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  css={styles.itemTitle}
-                >
-                  {performance.name}
-                  <iconExtLink />
-                </a>
-
-                <p css={styles.description}>{performance.description}</p>
-
-
-                {performance.blogPath && (
-                  <link
-                    to={performance.blogPath}
-                    target="_blank"
-                    css={styles.externalLink}
-                  >
-                    関連ブログ
-                  </link>
-                )}
-
-              </whiteBox>
-            ))}
-          </div>
-        </div>
+          </whiteBox>
+        ))}
       </div>
+
+      <sectionHeader text="Listening to" colorNumber="1" />
+
+      <div css={styles.grid}>
+        {music.map(performance => (
+          <whiteBox key={performance.name} css={styles.whiteBox}>
+            <a
+              href={performance.webpageURL}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={performance.imgPath}
+                css={styles.itemImage}
+                alt={performance.name}
+              />
+            </a>
+
+            <a
+              href={performance.webpageURL}
+              target="_blank"
+              rel="noopener noreferrer"
+              css={styles.itemTitle}
+            >
+              {performance.name}
+              <iconExtLink />
+            </a>
+
+            <p css={styles.description}>{performance.description}</p>
+
+
+            {performance.blogPath && (
+              <link
+                to={performance.blogPath}
+                target="_blank"
+                css={styles.externalLink}
+              >
+                関連ブログ
+              </link>
+            )}
+
+          </whiteBox>
+        ))}
+      </div>
+
     </sectionContainer>
   );
 };
