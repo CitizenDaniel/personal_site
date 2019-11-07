@@ -11,7 +11,7 @@ import duke0 from '../images/duke0.jpeg'
 import { rhythm } from '../utils/typography';
 
 const PerformanceSection = () => {
-    const performances = [
+    const readings = [
       {
         name: 'Ray Dalio - The World Has Gone Mad and the System is Broken',
         description:
@@ -31,8 +31,15 @@ const PerformanceSection = () => {
         webpageURL: 'https://www.amazon.com/Thinking-Bets-Making-Smarter-Decisions/dp/0735216355',
         imgPath: duke0,
         },
+    ];
+    const music = [
+      {
+        name: 'Name',
+        description: 'description',
+        webpageURL: 'http://url.com',
+      }
+    ];
     
-  ];
 
   const styles = {
     grid: {
@@ -79,9 +86,8 @@ const PerformanceSection = () => {
     <SectionContainer id="performance">
       <SectionHeader text="Reading" colorNumber="1" />
 
-      {/* グリッド始点 */}
       <div css={styles.grid}>
-        {performances.map(performance => (
+        {readings.map(performance => (
           <WhiteBox key={performance.name} css={styles.whiteBox}>
             <a
               href={performance.webpageURL}
@@ -121,7 +127,51 @@ const PerformanceSection = () => {
           </WhiteBox>
         ))}
       </div>
-      {/* グリッド終点 */}
+
+      <SectionHeader text="Listening to" colorNumber="1" />
+
+      <div css={styles.grid}>
+        {music.map(performance => (
+          <WhiteBox key={performance.name} css={styles.whiteBox}>
+            <a
+              href={performance.webpageURL}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={performance.imgPath}
+                css={styles.itemImage}
+                alt={performance.name}
+              />
+            </a>
+
+            <a
+              href={performance.webpageURL}
+              target="_blank"
+              rel="noopener noreferrer"
+              css={styles.itemTitle}
+            >
+              {performance.name}
+              <IconExtLink />
+            </a>
+
+            <p css={styles.description}>{performance.description}</p>
+
+
+            {performance.blogPath && (
+              <Link
+                to={performance.blogPath}
+                target="_blank"
+                css={styles.externalLink}
+              >
+                関連ブログ
+              </Link>
+            )}
+
+          </WhiteBox>
+        ))}
+      </div>
+
     </SectionContainer>
   );
 };
