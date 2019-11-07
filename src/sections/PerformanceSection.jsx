@@ -72,7 +72,7 @@ const PerformanceSection = () => {
 
   return (
     <SectionContainer id="performance">
-      <SectionHeader text="Articles" colorNumber="1" />
+      <SectionHeader text="Reading" colorNumber="1" />
 
       {/* グリッド始点 */}
       <div css={styles.grid}>
