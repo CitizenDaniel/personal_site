@@ -3,7 +3,7 @@ import { Link as LinkForScroll } from 'react-scroll';
 import IconExtLink from '../components/IconExtLink';
 import arrowSvg from '../icons/arrow.svg';
 import logoSvg from '../icons/logo.svg';
-import topImageJpg from '../images/crater.JPG';
+import topImageJpg from '../images/crater.jpg';
 
 const TopSection = () => {
     const styles = {
