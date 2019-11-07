@@ -26,7 +26,7 @@ const PerformanceSection = () => {
       githubURL: 'https://github.com/junkboy0315/pairwise-pict-online',
       ingPath: harari0,
     },
-    {
+    
   ];
 
   const styles = {
