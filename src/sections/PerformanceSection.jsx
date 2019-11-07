@@ -80,14 +80,10 @@ const performanceSection = () => {
         background: "#eee"
       }
     },
-    sectionGrid: {
-      rowGap: rhythm(2)
-    }
   };
 
   return (
     <sectionContainer id="performance">
-      <div css={styles.sectionGrid}>
         
         <sectionHeader text="Reading" colorNumber="1" />
 
@@ -132,7 +128,7 @@ const performanceSection = () => {
             </whiteBox>
           ))}
         </div>
-
+        <br/>
         <sectionHeader text="Listening to" colorNumber="1" />
 
         <div css={styles.grid}>
@@ -176,7 +172,6 @@ const performanceSection = () => {
               </whiteBox>
             ))}
         </div>
-      </div>
     </sectionContainer>
   );
 };
