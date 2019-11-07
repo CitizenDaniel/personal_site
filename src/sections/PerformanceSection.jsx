@@ -86,8 +86,8 @@ const performanceSection = () => {
   };
 
   return (
-    <div css={styles.sectionGrid}>
-      <sectionContainer id="performance">
+    <sectionContainer id="performance">
+      <div css={styles.sectionGrid}>
         
         <sectionHeader text="Reading" colorNumber="1" />
 
@@ -132,12 +132,7 @@ const performanceSection = () => {
             </whiteBox>
           ))}
         </div>
-      </sectionContainer>
 
-      
-      <sectionContainer id="performance2">
-
-        
         <sectionHeader text="Listening to" colorNumber="1" />
 
         <div css={styles.grid}>
@@ -181,8 +176,8 @@ const performanceSection = () => {
               </whiteBox>
             ))}
         </div>
-      </sectionContainer>
-    </div>
+      </div>
+    </sectionContainer>
   );
 };
 
