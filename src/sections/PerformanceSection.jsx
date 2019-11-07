@@ -24,7 +24,7 @@ const PerformanceSection = () => {
       description: 'Dozens of fascinating questions about the future of liberalism.',
       webpageURL: 'https://www.ynharari.com/book/homo-deus/',
       githubURL: 'https://github.com/junkboy0315/pairwise-pict-online',
-      ingPath: harari0,
+      imgPath: harari0,
     },
     
   ];
