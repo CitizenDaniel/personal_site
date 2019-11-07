@@ -88,57 +88,55 @@ const performanceSection = () => {
   return (
     <sectionContainer id="performance">
       <div css={styles.sectionGrid}>
-        
-        <sectionHeader text="Reading" colorNumber="1" />
+        <div>
+          <sectionHeader text="Reading" colorNumber="1" />
 
-        <div css={styles.grid}>
-          {readings.map(performance => (
-            <whiteBox key={performance.name} css={styles.whiteBox}>
-              <a
-                href={performance.webpageURL}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={performance.imgPath}
-                  css={styles.itemImage}
-                  alt={performance.name}
-                />
-              </a>
-
-              <a
-                href={performance.webpageURL}
-                target="_blank"
-                rel="noopener noreferrer"
-                css={styles.itemTitle}
-              >
-                {performance.name}
-                <iconExtLink />
-              </a>
-
-              <p css={styles.description}>{performance.description}</p>
-
-
-              {performance.blogPath && (
-                <link
-                  to={performance.blogPath}
+          <div css={styles.grid}>
+            {readings.map(performance => (
+              <whiteBox key={performance.name} css={styles.whiteBox}>
+                <a
+                  href={performance.webpageURL}
                   target="_blank"
-                  css={styles.externalLink}
+                  rel="noopener noreferrer"
                 >
-                  関連ブログ
-                </link>
-              )}
+                  <img
+                    src={performance.imgPath}
+                    css={styles.itemImage}
+                    alt={performance.name}
+                  />
+                </a>
 
-            </whiteBox>
-          ))}
+                <a
+                  href={performance.webpageURL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  css={styles.itemTitle}
+                >
+                  {performance.name}
+                  <iconExtLink />
+                </a>
+
+                <p css={styles.description}>{performance.description}</p>
+
+
+                {performance.blogPath && (
+                  <link
+                    to={performance.blogPath}
+                    target="_blank"
+                    css={styles.externalLink}
+                  >
+                    関連ブログ
+                  </link>
+                )}
+
+              </whiteBox>
+            ))}
+          </div>
         </div>
-      </div>
-      <div css={styles.sectionGrid}>
+        <div>
+          <sectionHeader text="Listening to" colorNumber="1" />
 
-        
-        <sectionHeader text="Listening to" colorNumber="1" />
-
-        <div css={styles.grid}>
+          <div css={styles.grid}>
             {music.map(performance => (
               <whiteBox key={performance.name} css={styles.whiteBox}>
                 <a
@@ -178,6 +176,7 @@ const performanceSection = () => {
 
               </whiteBox>
             ))}
+          </div>
         </div>
       </div>
     </sectionContainer>
