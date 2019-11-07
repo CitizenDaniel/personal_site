@@ -80,17 +80,12 @@ const PerformanceSection = () => {
         background: '#eee',
       },
     },
-    subsectionContainer:
-    {
-      gutter: "20px"
-    }
 };
 
   return (
     <SectionContainer id="performance">
       <SectionHeader text="Reading" colorNumber="1" />
 
-      <subsectionContainer>
       <div css={styles.grid}>
         {readings.map(performance => (
           <WhiteBox key={performance.name} css={styles.whiteBox}>
@@ -132,7 +127,7 @@ const PerformanceSection = () => {
           </WhiteBox>
         ))}
       </div>
-
+      <br/>
       <SectionHeader text="Listening to" colorNumber="1" />
 
       <div css={styles.grid}>
@@ -176,7 +171,6 @@ const PerformanceSection = () => {
           </WhiteBox>
         ))}
       </div>
-      </subsectionContainer>
     </SectionContainer>
   );
 };
