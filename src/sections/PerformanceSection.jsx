@@ -135,7 +135,7 @@ const performanceSection = () => {
       </sectionContainer>
 
       
-      <sectionContainer id="performance">
+      <sectionContainer id="performance2">
 
         
         <sectionHeader text="Listening to" colorNumber="1" />
