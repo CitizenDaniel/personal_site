@@ -53,8 +53,8 @@ const FooterSection = props => {
   };
 
   return (
-    <SectionContainer id="contact" colorNumber="2" skew skewFillBottom>
-      <SectionHeader text="Contact" colorNumber="2" />
+    <SectionContainer id="contact" colorNumber="1" >
+      <SectionHeader text="Contact" colorNumber="1" />
 
       <div css={styles.container}>
         {footerInfo.map(info => (
