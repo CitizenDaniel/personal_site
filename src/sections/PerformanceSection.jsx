@@ -15,7 +15,7 @@ const PerformanceSection = () => {
       {
         name: 'Ray Dalio - The World Has Gone Mad and the System is Broken',
         description:
-          'A current wealth fund manager and historic entrepreneur\'s take on the current state of the economy.',
+          'A famous wealth fund manager and entrepreneur\'s take on the current state of the economy.',
         webpageURL: 'https://www.linkedin.com/pulse/world-has-gone-mad-system-broken-ray-dalio/',
         imgPath: dalio0,
       },
@@ -84,54 +84,10 @@ const PerformanceSection = () => {
 
   return (
     <SectionContainer id="performance">
-      <SectionHeader text="Reading" colorNumber="1" />
+      <SectionHeader text="Things I'm thinking about" colorNumber="1" />
 
       <div css={styles.grid}>
         {readings.map(performance => (
-          <WhiteBox key={performance.name} css={styles.whiteBox}>
-            <a
-              href={performance.webpageURL}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src={performance.imgPath}
-                css={styles.itemImage}
-                alt={performance.name}
-              />
-            </a>
-
-            <a
-              href={performance.webpageURL}
-              target="_blank"
-              rel="noopener noreferrer"
-              css={styles.itemTitle}
-            >
-              {performance.name}
-              <IconExtLink />
-            </a>
-
-            <p css={styles.description}>{performance.description}</p>
-
-
-            {performance.blogPath && (
-              <Link
-                to={performance.blogPath}
-                target="_blank"
-                css={styles.externalLink}
-              >
-                関連ブログ
-              </Link>
-            )}
-
-          </WhiteBox>
-        ))}
-      </div>
-      <br/>
-      <SectionHeader text="Listening to" colorNumber="1" />
-
-      <div css={styles.grid}>
-        {music.map(performance => (
           <WhiteBox key={performance.name} css={styles.whiteBox}>
             <a
               href={performance.webpageURL}
