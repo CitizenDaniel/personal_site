@@ -7,6 +7,8 @@ import SectionHeader from '../components/SectionHeader';
 import WhiteBox from '../components/WhiteBox';
 
 import dredmor0 from '../images/dredmor0.jpg'
+import ce0 from "../images/ce0.jpg"
+import finn0 from "../images/finn0.png"
 
 
 import { rhythm } from '../utils/typography';
@@ -23,14 +25,14 @@ const ProfileSection = () => {
     },
     {
       name: 'Clockwork Empires',
-      description: 'A game of hubris.',
-      imgPath: dredmor0,
+      description: 'A game about the perils of the unknown. Sort of a cross between The Sims, Settlers, and H.P. Lovecraft. This project was a labor of love, but was overly ambitious and suffered from scope creep and unwieldy systems.',
+      imgPath: ce0,
     },
     {
       name: 'Digital Self-Service',
-      description: 'A bot that helps people.',
+      description: "My first \"startup\", Finn AI\'s Digital Self-Service assistant helps users with common banking problems that can\'t be resolved easily via mobile or web. The product saved end users time, and both saved money and built trust for financial institutions.""
       webpageURL: 'https://www.finn.ai',
-      imgPath: dredmor0,
+      imgPath: finn0,
     },
   ];
 
