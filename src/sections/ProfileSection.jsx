@@ -19,13 +19,13 @@ const ProfileSection = () => {
     {
       name: 'Dungeons of Dredmor',
       description:
-        'A dungeon game with lutefisk. This project was the basis for the game studio Gaslamp Games. This project was a labor of love, worked on in basements and couches on evenings and weekends, while everyone in the team was busy with their full-time job or school.',
+        'A dungeon game with lutefisk. This project was the foundation for the game studio Gaslamp Games, worked on in basements and couches on evenings and weekends, while everyone in the team was busy with their full-time job or school.',
       webpageURL: 'https://dungeonsofdredmor.com/',
       imgPath: dredmor0,
     },
     {
       name: 'Clockwork Empires',
-      description: 'A game about the perils of the unknown, The Sims crossed with Settlers, and H.P. Lovecraft. This project was a labor of love, but was overly ambitious and suffered from scope creep and unwieldy systems.',
+      description: 'A game about the perils of the unknown, The Sims crossed with Settlers, and H.P. Lovecraft. This project was a labor of love, but was ultimately overly ambitious and suffered from scope creep and unwieldy systems.',
       imgPath: ce,
     },
     {
