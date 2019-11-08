@@ -5,7 +5,6 @@ import IconExtLink from '../components/IconExtLink';
 import SectionContainer from '../components/SectionContainer';
 import SectionHeader from '../components/SectionHeader';
 import WhiteBox from '../components/WhiteBox';
-import profileJpg from '../images/profile.jpg';
 import { rhythm } from '../utils/typography';
 
 const ProfileSection = () => {
