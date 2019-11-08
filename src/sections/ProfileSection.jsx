@@ -65,11 +65,6 @@ const ProfileSection = () => {
         <WhiteBox css={styles.whiteBox}>
           <h3 css={styles.h3}>name</h3>
           <div css={styles.gaiyouPictureContainer}>
-            <img
-              src={profileJpg}
-              css={styles.gaiyouPicture}
-              alt="altpic"
-            />
           </div>
 
           <div css={styles.gaiyouListItem}>
