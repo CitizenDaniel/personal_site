@@ -32,7 +32,7 @@ const FooterSection = props => {
       margin: 'auto',
     },
     link: {
-      color: '#fff',
+      color: '#262626',
       textDecoration: 'none',
     },
     ItemContainer: {
@@ -46,7 +46,7 @@ const FooterSection = props => {
       height: '30px',
     },
     description: {
-      color: '#fff',
+      color: '#262626',
       marginBottom: 0,
       paddingLeft: rhythm(1 / 2),
     },

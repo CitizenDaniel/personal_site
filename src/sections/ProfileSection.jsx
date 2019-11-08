@@ -13,7 +13,7 @@ import { rhythm } from '../utils/typography';
 
 const ProfileSection = () => {
 
-  const readings = [
+  const projects = [
     {
       name: 'Dungeons of Dredmor',
       description:
@@ -238,6 +238,49 @@ const ProfileSection = () => {
           </p>
         </WhiteBox>
       </div>
+
+      <div css={styles.grid}>
+        {projects.map(project => (
+          <WhiteBox key={project.name} css={styles.whiteBox}>
+            <a
+              href={project.webpageURL}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={project.imgPath}
+                css={styles.itemImage}
+                alt={project.name}
+              />
+            </a>
+
+            <a
+              href={project.webpageURL}
+              target="_blank"
+              rel="noopener noreferrer"
+              css={styles.itemTitle}
+            >
+              {project.name}
+              <IconExtLink />
+            </a>
+
+            <p css={styles.description}>{project.description}</p>
+
+
+            {project.blogPath && (
+              <Link
+                to={project.blogPath}
+                target="_blank"
+                css={styles.externalLink}
+              >
+                関連ブログ
+              </Link>
+            )}
+
+          </WhiteBox>
+        ))}
+      </div>
+
     </SectionContainer>
   );
 };
