@@ -35,7 +35,7 @@ const ProfileSection = () => {
   ];
 
   const styles = {
-    container: {
+    grid: {
       display: 'grid',
       gridGap: rhythm(2),
       gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 350px))',
@@ -43,45 +43,8 @@ const ProfileSection = () => {
       margin: 'auto',
       maxWidth: 1200,
     },
-    link: {
-      color: '#262626',
-    },
     whiteBox: {
-      height: 'min-content',
       padding: rhythm(1),
-      paddingTop: 0,
-    },
-    whiteBoxKeireki: {
-      gridRowStart: 'span 2',
-    },
-    h3: {
-      marginTop: rhythm(2),
-      marginBottom: rhythm(1.5),
-    },
-    gaiyouPictureContainer: {
-      marginBottom: rhythm(1.5),
-      textAlign: 'center',
-    },
-    gaiyouPicture: {
-      width: '200px',
-      borderRadius: '50%',
-    },
-    gaiyouListItem: {
-      display: 'flex',
-      flexDirection: 'row',
-      justifyContent: 'center',
-      marginBottom: rhythm(1),
-    },
-    gaiyouItemName: {
-      flex: 2,
-      textAlign: 'right',
-      marginRight: '1rem',
-    },
-    gaiyouItemContent: {
-      flex: 3,
-    },
-    keirekiGray: {
-      color: '#999999',
     },
     itemImage: {
       border: '1px solid #aaa',
@@ -101,9 +64,15 @@ const ProfileSection = () => {
       fontSize: '0.8rem',
       marginBottom: '0.8rem',
     },
-
-
-
+    externalLink: {
+      color: '#999',
+      fontSize: '0.8rem',
+      textDecoration: 'none',
+      marginRight: '1rem',
+      ':hover': {
+        background: '#eee',
+      },
+    },
 };
 
   return (
