@@ -6,7 +6,7 @@ import SectionContainer from '../components/SectionContainer';
 import SectionHeader from '../components/SectionHeader';
 import WhiteBox from '../components/WhiteBox';
 
-import dredmor0 from '../images/dredmor0.jpeg'
+import dredmor0 from '../images/dredmor0.jpg'
 
 
 import { rhythm } from '../utils/typography';
@@ -32,13 +32,6 @@ const ProfileSection = () => {
       webpageURL: 'https://www.finn.ai',
       imgPath: dredmor0,
     },
-  ];
-  const music = [
-    {
-      name: 'Name',
-      description: 'description',
-      webpageURL: 'http://url.com',
-    }
   ];
 
   const styles = {
@@ -87,7 +80,26 @@ const ProfileSection = () => {
     },
     keirekiGray: {
       color: '#999999',
-    }
+    },
+    itemImage: {
+      border: '1px solid #aaa',
+      objectFit: 'cover',
+      height: '160px',
+      width: '100%',
+      filter: 'brightness(95%) grayscale(30%)',
+    },
+    itemTitle: {
+      color: '#262626',
+      display: 'block',
+      fontWeight: 'bold',
+      margin: '1rem 0',
+      textDecoration: 'none',
+    },
+    description: {
+      fontSize: '0.8rem',
+      marginBottom: '0.8rem',
+    },
+
 
 
 };
