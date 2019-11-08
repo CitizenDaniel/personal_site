@@ -25,7 +25,7 @@ const ProfileSection = () => {
     },
     {
       name: 'Clockwork Empires',
-      description: 'A game about the perils of the unknown. Sort of a cross between The Sims, Settlers, and H.P. Lovecraft. This project was a labor of love, but was overly ambitious and suffered from scope creep and unwieldy systems.',
+      description: 'A game about the perils of the unknown, The Sims crossed with Settlers, and H.P. Lovecraft. This project was a labor of love, but was overly ambitious and suffered from scope creep and unwieldy systems.',
       imgPath: ce0,
     },
     {
