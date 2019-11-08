@@ -5,9 +5,42 @@ import IconExtLink from '../components/IconExtLink';
 import SectionContainer from '../components/SectionContainer';
 import SectionHeader from '../components/SectionHeader';
 import WhiteBox from '../components/WhiteBox';
+
+import dredmor0 from '../images/dredmor0.jpeg'
+
+
 import { rhythm } from '../utils/typography';
 
 const ProfileSection = () => {
+
+  const readings = [
+    {
+      name: 'Dungeons of Dredmor',
+      description:
+        'A dungeon game with lutefisk.',
+      webpageURL: 'https://dungeonsofdredmor.com/',
+      imgPath: dalio0,
+    },
+    {
+      name: 'Clockwork Empires',
+      description: 'A game of hubris.',
+      imgPath: harari0,
+    },
+    {
+      name: 'Digital Self-Service',
+      description: 'A bot that helps people.',
+      webpageURL: 'https://www.finn.ai',
+      imgPath: duke0,
+    },
+  ];
+  const music = [
+    {
+      name: 'Name',
+      description: 'description',
+      webpageURL: 'http://url.com',
+    }
+  ];
+
   const styles = {
     container: {
       display: 'grid',
@@ -54,8 +87,10 @@ const ProfileSection = () => {
     },
     keirekiGray: {
       color: '#999999',
-    },
-  };
+    }
+
+
+};
 
   return (
     <SectionContainer id="profile" colorNumber="2" skew skewReverse>
