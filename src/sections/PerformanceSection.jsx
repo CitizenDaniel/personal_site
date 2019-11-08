@@ -10,6 +10,7 @@ import dalio0 from '../images/dalio0.png';
 import harari0 from '../images/harari0.jpg'
 import duke0 from '../images/duke0.jpeg'
 import liu0 from "../images/liu0.jpg"
+import cagan0 from "../images/cagan0.jpg"
 
 import { rhythm } from '../utils/typography';
 
@@ -39,7 +40,14 @@ const PerformanceSection = () => {
         description: "A weird and deeply compelling story that plays with the nature of fictional and altered realities. This may be the first Chinese sci-fi story I have ever read, and I'm hooked.",
         webpageURL: "https://www.amazon.ca/dp/B00IQO403K/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1",
         imgPath: liu0
-      }
+      },
+      {
+        name: "Marty Cagan - Inspired",
+        description: "A benchmark for product managers, Cagan describes in detail his best-case model for teams making great products, as well as how other models fail.",
+        webpageURL: "https://svpg.com/inspired-how-to-create-products-customers-love/",
+        imgPath: cagan0
+      },
+      
     ];
     const music = [
       {
@@ -93,7 +101,7 @@ const PerformanceSection = () => {
 
   return (
     <SectionContainer id="performance">
-      <SectionHeader text="Things I'm thinking about" colorNumber="1" />
+      <SectionHeader text="2019 - Things I'm thinking about" colorNumber="1" />
 
       <div css={styles.grid}>
         {readings.map(performance => (
