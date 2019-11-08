@@ -103,7 +103,7 @@ const ProfileSection = () => {
               css={styles.itemTitle}
             >
               {project.name}
-              <IconExtLink />
+              
             </a>
 
             <p css={styles.description}>{project.description}</p>
