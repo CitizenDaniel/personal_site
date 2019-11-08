@@ -6,8 +6,8 @@ import SectionContainer from '../components/SectionContainer';
 import SectionHeader from '../components/SectionHeader';
 import WhiteBox from '../components/WhiteBox';
 
-import dredmor0 from '../images/dredmor0.jpg'
-import ce0 from "../images/ce0.jpg"
+import dredmor0 from '../images/dredmor0.png'
+import ce from "../images/ce1.png"
 import finn0 from "../images/finn0.png"
 
 
@@ -19,7 +19,7 @@ const ProfileSection = () => {
     {
       name: 'Dungeons of Dredmor',
       description:
-        'A dungeon game with lutefisk.',
+        'A dungeon game with lutefisk. This project was the basis for the game studio Gaslamp Games. This project was a labor of love, worked on in basements and couches on evenings and weekends, while everyone in the team was busy with their full-time job or school.',
       webpageURL: 'https://dungeonsofdredmor.com/',
       imgPath: dredmor0,
     },
