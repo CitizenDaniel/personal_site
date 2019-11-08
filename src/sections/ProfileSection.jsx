@@ -19,18 +19,18 @@ const ProfileSection = () => {
       description:
         'A dungeon game with lutefisk.',
       webpageURL: 'https://dungeonsofdredmor.com/',
-      imgPath: dalio0,
+      imgPath: dredmor0,
     },
     {
       name: 'Clockwork Empires',
       description: 'A game of hubris.',
-      imgPath: harari0,
+      imgPath: dredmor0,
     },
     {
       name: 'Digital Self-Service',
       description: 'A bot that helps people.',
       webpageURL: 'https://www.finn.ai',
-      imgPath: duke0,
+      imgPath: dredmor0,
     },
   ];
   const music = [
