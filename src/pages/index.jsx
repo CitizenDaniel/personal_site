@@ -5,6 +5,7 @@ import '../css/global.css';
 import FooterSection from '../sections/FooterSection';
 import PerformanceSection from '../sections/PerformanceSection';
 import TopSection from '../sections/TopSection';
+import ProfileSection from '../sections/ProfileSection'
 import Layout from '../components/Layout';
 
 class IndexPage extends React.Component {
@@ -36,6 +37,7 @@ class IndexPage extends React.Component {
 
         <TopSection />
         <PerformanceSection />
+        <ProfileSection />
         <FooterSection setCurrentModal={this.setCurrentModal} />
 
         <SEO />
