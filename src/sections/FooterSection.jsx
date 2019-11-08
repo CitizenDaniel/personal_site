@@ -4,7 +4,7 @@ import SectionContainer from '../components/SectionContainer';
 import SectionHeader from '../components/SectionHeader';
 import svgForm from '../icons/footer-form.svg';
 import svgGithub from '../icons/footer-github-dark.svg';
-import svgMail from '../icons/footer-mail.svg';
+import svgMail from '../icons/footer-mail-dark.svg';
 import svgPin from '../icons/footer-pin.svg';
 import { rhythm } from '../utils/typography';
 
