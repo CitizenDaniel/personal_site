@@ -5,9 +5,12 @@ import IconExtLink from '../components/IconExtLink';
 import SectionContainer from '../components/SectionContainer';
 import SectionHeader from '../components/SectionHeader';
 import WhiteBox from '../components/WhiteBox';
+
 import dalio0 from '../images/dalio0.png';
 import harari0 from '../images/harari0.jpg'
 import duke0 from '../images/duke0.jpeg'
+import liu0 from "../images/liu0.jpg"
+
 import { rhythm } from '../utils/typography';
 
 const PerformanceSection = () => {
@@ -31,6 +34,12 @@ const PerformanceSection = () => {
         webpageURL: 'https://www.amazon.com/Thinking-Bets-Making-Smarter-Decisions/dp/0735216355',
         imgPath: duke0,
         },
+      {
+        name: "Cixin Liu - The Three-body Problem",
+        description: "A weird and deeply compelling story that plays with the nature of fictional and altered realities. This may be the first Chinese sci-fi story I have ever read, and I'm hooked.",
+        webpageURL: "https://www.amazon.ca/dp/B00IQO403K/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1",
+        imgPath: liu0
+      }
     ];
     const music = [
       {
