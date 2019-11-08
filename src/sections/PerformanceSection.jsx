@@ -101,7 +101,7 @@ const PerformanceSection = () => {
 
   return (
     <SectionContainer id="performance">
-      <SectionHeader text="2019 - Things I'm thinking about" colorNumber="1" />
+      <SectionHeader text="Things I'm thinking about" colorNumber="1" />
 
       <div css={styles.grid}>
         {readings.map(performance => (

@@ -9,6 +9,7 @@ import WhiteBox from '../components/WhiteBox';
 import dredmor0 from '../images/dredmor0.png'
 import ce from "../images/ce1.png"
 import finn0 from "../images/finn0.png"
+import sc0 from "../images/sc0.png"
 
 
 import { rhythm } from '../utils/typography';
@@ -34,6 +35,11 @@ const ProfileSection = () => {
       webpageURL: 'https://www.finn.ai',
       imgPath: finn0,
     },
+    {
+      name: "Untitled Space Game",
+      description: "Still very much WIP, I\'m experimenting with a couple of things. First, the weirdness of actual orbital mechanics. And second, the relaxing feeling of watching complex simulations at work.",
+      imgPath: sc0
+    }
   ];
 
   const styles = {
