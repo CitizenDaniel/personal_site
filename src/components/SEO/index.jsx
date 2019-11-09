@@ -149,6 +149,7 @@ function SEO({ postNode, metaData }) {
           gtag('config', UA-15514230-1);
         `}
       </script>  );
+    </Helmet>
 }
 
 SEO.propTypes = propTypes;
