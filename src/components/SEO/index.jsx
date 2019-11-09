@@ -140,7 +140,7 @@ function SEO({ postNode, metaData }) {
       ]}
     >
     {/* Global site tag (gtag.js) - Google Analytics  */}
-    <script async src=`https://www.googletagmanager.com/gtag/js?id=UA-15514230-1`></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-15514230-1"></script>
     <script>
         {`
           window.dataLayer = window.dataLayer || [];
@@ -150,6 +150,7 @@ function SEO({ postNode, metaData }) {
         `}
       </script>  );
     </Helmet>
+  );
 }
 
 SEO.propTypes = propTypes;
