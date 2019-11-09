@@ -139,16 +139,16 @@ function SEO({ postNode, metaData }) {
         },
       ]}
     >
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-15514230-1"></script>
-      <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-15514230-1');
-    </script>
-    </Helmet>
-  );
+    {/* Global site tag (gtag.js) - Google Analytics  */}
+    <script async src=`https://www.googletagmanager.com/gtag/js?id=UA-15514230-1`></script>
+    <script>
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', UA-15514230-1);
+        `}
+      </script>  );
 }
 
 SEO.propTypes = propTypes;
