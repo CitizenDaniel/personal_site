@@ -48,29 +48,21 @@ function SEO({ postNode, metaData }) {
     '@type': 'Corporation',
     name: config.corporationName,
     url: config.siteUrl,
-    logo: `${config.siteUrl}${config.siteLogo}`,
-    address: {
-      postalCode: '697-0123',
-      addressCountry: 'JP',
-      addressRegion: '島根県',
-      addressLocality: '浜田市',
-      streetAddress: '金城町七条',
-    },
     contactPoint: [
       {
         '@type': 'ContactPoint',
-        telephone: '+81-70-4398-9424',
+        telephone: '555-5555',
         contactType: 'sales',
       },
     ],
     founder: {
       '@type': 'Person',
-      givenName: '翔太',
-      familyName: '田村',
+      givenName: 'Dan',
+      familyName: 'Jacobsen',
     },
-    foundingDate: '2018-4-11',
+    foundingDate: '2019-11-9',
     description: config.siteDescription,
-    sameAs: ['https://www.facebook.com/yuuniworks/'],
+    sameAs: ['https://www.danjacobsen.com'],
   });
 
   // JSON-LD Breadcrumb
@@ -146,7 +138,17 @@ function SEO({ postNode, metaData }) {
           innerHTML: JSON.stringify(schemaOrgJSONLD),
         },
       ]}
-    />
+    >
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-15514230-1"></script>
+      <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-15514230-1');
+    </script>
+    </Helmet>
   );
 }
 
