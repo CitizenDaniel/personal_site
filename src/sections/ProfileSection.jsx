@@ -18,27 +18,27 @@ const ProfileSection = () => {
 
   const projects = [
     {
-      name: 'Dungeons of Dredmor',
-      description:
-        'A dungeon game with lutefisk. This project was the foundation for the game studio Gaslamp Games, worked on in basements and couches on evenings and weekends, while everyone in the team was busy with their full-time job or school.',
-      webpageURL: 'https://dungeonsofdredmor.com/',
-      imgPath: dredmor0,
+      name: "2020 - ?: Untitled Space Game",
+      description: "Still very much WIP, I\'m experimenting with a couple of things. First, the weirdness of actual orbital mechanics. And second, the relaxing feeling of watching complex simulations at work.",
+      imgPath: sc0
     },
     {
-      name: 'Clockwork Empires',
-      description: 'A game about the perils of the unknown, The Sims crossed with Settlers, and H.P. Lovecraft. This project was a labor of love, but was ultimately overly ambitious and suffered from scope creep and unwieldy systems.',
-      imgPath: ce,
-    },
-    {
-      name: 'Digital Self-Service',
+      name: '2017 - 2019: Digital Self-Service',
       description: "Finn AI\'s Digital Self-Service assistant helps users with common banking problems that can\'t be resolved easily via mobile or web. The product saved end users time, and both reduced operational costs and built trust for financial institutions.",
       webpageURL: 'https://www.finn.ai',
       imgPath: finn0,
     },
     {
-      name: "Untitled Space Game",
-      description: "Still very much WIP, I\'m experimenting with a couple of things. First, the weirdness of actual orbital mechanics. And second, the relaxing feeling of watching complex simulations at work.",
-      imgPath: sc0
+      name: '2012 - 2017: Clockwork Empires',
+      description: 'A game about the perils of the unknown, The Sims crossed with Settlers, and H.P. Lovecraft. This project was a labor of love, but was ultimately overly ambitious and suffered from scope creep and unwieldy systems.',
+      imgPath: ce,
+    },
+    {
+      name: '2008 - 2012: Dungeons of Dredmor',
+      description:
+        'A dungeon game with lutefisk. This project was the foundation for the game studio Gaslamp Games, worked on in basements and couches on evenings and weekends, while everyone in the team was busy with their full-time job or school.',
+      webpageURL: 'https://dungeonsofdredmor.com/',
+      imgPath: dredmor0,
     }
   ];
 
