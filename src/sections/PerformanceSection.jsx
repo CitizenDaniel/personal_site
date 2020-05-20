@@ -11,11 +11,19 @@ import harari0 from '../images/harari0.jpg'
 import duke0 from '../images/duke0.jpeg'
 import liu0 from "../images/liu0.jpg"
 import cagan0 from "../images/cagan0.jpg"
+import christensen0 from "../images/christensen0.jpg"
 
 import { rhythm } from '../utils/typography';
 
 const PerformanceSection = () => {
-    const readings = [
+  const readings = [
+      {
+        name: 'Clayton M. Christensen, Michael E Raynor - The Innovator\'s Solution',
+        description:
+          'A thoroughly researched and cited reference on how and why some companies can make innovative products and others fail.',
+        webpageURL: 'https://store.hbr.org/product/the-innovator-s-solution-creating-and-sustaining-successful-growth/16444',
+        imgPath: christensen0,
+      },
       {
         name: 'Ray Dalio - The World Has Gone Mad and the System is Broken',
         description:
@@ -47,7 +55,7 @@ const PerformanceSection = () => {
         webpageURL: "https://svpg.com/inspired-how-to-create-products-customers-love/",
         imgPath: cagan0
       },
-      
+
     ];
     const music = [
       {
@@ -56,7 +64,7 @@ const PerformanceSection = () => {
         webpageURL: 'http://url.com',
       }
     ];
-    
+
 
   const styles = {
     grid: {
