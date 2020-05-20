@@ -18,7 +18,7 @@ import { rhythm } from '../utils/typography';
 const PerformanceSection = () => {
   const readings = [
       {
-        name: 'Clayton M. Christensen, Michael E Raynor - The Innovator\'s Solution',
+        name: 'Clayton M. Christensen, Michael E. Raynor - The Innovator\'s Solution',
         description:
           'A thoroughly researched and cited reference on how and why some companies can make innovative products and others fail.',
         webpageURL: 'https://store.hbr.org/product/the-innovator-s-solution-creating-and-sustaining-successful-growth/16444',
