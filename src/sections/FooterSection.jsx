@@ -6,6 +6,7 @@ import svgForm from '../icons/footer-form.svg';
 import svgGithub from '../icons/footer-github-dark.svg';
 import svgMail from '../icons/footer-mail-dark.svg';
 import svgPin from '../icons/footer-pin.svg';
+import linkedin from '../icons/linkedin.svg';
 import { rhythm } from '../utils/typography';
 
 const FooterSection = props => {
@@ -15,6 +16,11 @@ const FooterSection = props => {
       imgPath: svgMail,
       description: 'dan@danjacobsen.com',
       link: 'mailto:dan@danjacobsen.com',
+    },
+    {
+      imgPath: linkedin,
+      description: 'linkedin.com/danjacobsen',
+      link: 'https://www.linkedin.com/in/danjacobsen01/'
     },
     {
       imgPath: svgGithub,
