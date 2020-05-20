@@ -85,7 +85,7 @@ const ProfileSection = () => {
 
   return (
     <SectionContainer id="profile" colorNumber="2" skew skewReverse>
-      <SectionHeader text="Things I've made" colorNumber="2" />
+      <SectionHeader text="Projects" colorNumber="2" />
 
       <div css={styles.grid}>
         {projects.map(project => (
