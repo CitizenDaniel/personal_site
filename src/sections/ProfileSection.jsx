@@ -31,7 +31,7 @@ const ProfileSection = () => {
     },
     {
       name: 'Digital Self-Service',
-      description: "My first \"startup\", Finn AI\'s Digital Self-Service assistant helps users with common banking problems that can\'t be resolved easily via mobile or web. The product saved end users time, and both reduced operational costs and built trust for financial institutions.",
+      description: "Finn AI\'s Digital Self-Service assistant helps users with common banking problems that can\'t be resolved easily via mobile or web. The product saved end users time, and both reduced operational costs and built trust for financial institutions.",
       webpageURL: 'https://www.finn.ai',
       imgPath: finn0,
     },
@@ -109,7 +109,7 @@ const ProfileSection = () => {
               css={styles.itemTitle}
             >
               {project.name}
-              
+
             </a>
 
             <p css={styles.description}>{project.description}</p>
