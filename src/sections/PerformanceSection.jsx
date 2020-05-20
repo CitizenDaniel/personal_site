@@ -27,7 +27,7 @@ const PerformanceSection = () => {
       {
         name: 'Ray Dalio - The World Has Gone Mad and the System is Broken',
         description:
-          'A famous wealth fund manager and entrepreneur\'s take on the current state of the economy.',
+          'A famous wealth fund manager and entrepreneur\'s take on the state of the economy prior to COVID-19.',
         webpageURL: 'https://www.linkedin.com/pulse/world-has-gone-mad-system-broken-ray-dalio/',
         imgPath: dalio0,
       },
