@@ -15,7 +15,7 @@ import christensen0 from "../images/christensen0.jpg"
 
 import { rhythm } from '../utils/typography';
 
-const PerformanceSection = () => {
+const ReadingSection = () => {
   const readings = [
       {
         name: 'Clayton M. Christensen, Michael E. Raynor - The Innovator\'s Solution',
@@ -156,4 +156,4 @@ const PerformanceSection = () => {
   );
 };
 
-export default PerformanceSection;
+export default ReadingSection;
