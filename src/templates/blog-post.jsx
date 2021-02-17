@@ -1,7 +1,6 @@
 /* eslint-disable react/no-danger */
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { DiscussionEmbed } from 'disqus-react';
 import { graphql } from 'gatsby';
 import Link from 'gatsby-link';
 import 'prismjs/themes/prism-tomorrow.css';
@@ -198,7 +197,7 @@ export default function BlogPost(props) {
           <WhiteBox>
             <footer css={styles.footer}>
               <div>
-                <p>田村 翔太</p>
+                <p>Dan Jacobsen</p>
                 <p>
                   <Link to="/">danjacobsen.com</Link>
                   
@@ -212,7 +211,7 @@ export default function BlogPost(props) {
               icon="arrow-left"
               style={styles.backButton.arrow}
             />
-            記事一覧に戻る
+            Return to Articles
           </Link>
         </div>
         <SEO postNode={post} />
