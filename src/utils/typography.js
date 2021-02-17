@@ -4,11 +4,15 @@ const typography = new Typography({
   bodyColor: '#262626',
   baseFontSize: '16px',
   bodyFontFamily: [
-    'sans-serif'
+    'Yu Gothic Medium', // win
+    'YuGothic', // mac
+    'sans-serif',
   ],
   headerColor: '#262626',
   headerFontFamily: [
-    'sans-serif'
+    'Yu Gothic Medium', // win
+    'YuGothic', // mac
+    'sans-serif',
   ],
   overrideStyles: () => ({
     'ul, li': {
