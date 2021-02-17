@@ -16,7 +16,7 @@ import christensen0 from "../images/christensen0.jpg"
 import { rhythm } from '../utils/typography';
 
 const ReadingSection = () => {
-  const readings = [
+  const reading = [
       {
         name: 'Clayton M. Christensen, Michael E. Raynor - The Innovator\'s Solution',
         description:
@@ -108,40 +108,40 @@ const ReadingSection = () => {
 };
 
   return (
-    <SectionContainer id="performance">
+    <SectionContainer id="reading">
       <SectionHeader text="Good Reads" colorNumber="1" />
 
       <div css={styles.grid}>
-        {readings.map(performance => (
-          <WhiteBox key={performance.name} css={styles.whiteBox}>
+        {reading.map(reading => (
+          <WhiteBox key={reading.name} css={styles.whiteBox}>
             <a
-              href={performance.webpageURL}
+              href={reading.webpageURL}
               target="_blank"
               rel="noopener noreferrer"
             >
               <img
-                src={performance.imgPath}
+                src={reading.imgPath}
                 css={styles.itemImage}
-                alt={performance.name}
+                alt={reading.name}
               />
             </a>
 
             <a
-              href={performance.webpageURL}
+              href={reading.webpageURL}
               target="_blank"
               rel="noopener noreferrer"
               css={styles.itemTitle}
             >
-              {performance.name}
+              {reading.name}
               <IconExtLink />
             </a>
 
-            <p css={styles.description}>{performance.description}</p>
+            <p css={styles.description}>{reading.description}</p>
 
 
-            {performance.blogPath && (
+            {reading.blogPath && (
               <Link
-                to={performance.blogPath}
+                to={reading.blogPath}
                 target="_blank"
                 css={styles.externalLink}
               >
