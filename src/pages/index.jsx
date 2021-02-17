@@ -3,7 +3,7 @@ import ModalConductor from '../components/ModalConductor';
 import SEO from '../components/SEO';
 import '../css/global.css';
 import FooterSection from '../sections/FooterSection';
-import PerformanceSection from '../sections/PerformanceSection';
+import ReadingSection from '../sections/ReadingSection';
 import TopSection from '../sections/TopSection';
 import ProfileSection from '../sections/ProfileSection'
 import Layout from '../components/Layout';
@@ -36,7 +36,7 @@ class IndexPage extends React.Component {
         )}
 
         <TopSection />
-        <PerformanceSection />
+        <ReadingSection />
         <ProfileSection />
         <FooterSection setCurrentModal={this.setCurrentModal} />
 
