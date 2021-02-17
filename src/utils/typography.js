@@ -3,7 +3,13 @@ import Typography from 'typography';
 const typography = new Typography({
   bodyColor: '#262626',
   baseFontSize: '16px',
+  bodyFontFamily: [
+    'sans-serif'
+  ],
   headerColor: '#262626',
+  headerFontFamily: [
+    'sans-serif'
+  ],
   overrideStyles: () => ({
     'ul, li': {
       listStyle: 'none',
