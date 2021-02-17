@@ -7,7 +7,7 @@ dateModified: '2001-01-01T12:00:00+01:00'
 thumbnail: /blogImages/20180409.png
 ---
 
-![Alt text here](./image.jpg)
+![Alt text here](./1000_true_fans.png)
 
 
 ## Impressions
