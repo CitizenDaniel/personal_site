@@ -167,15 +167,15 @@ export default function BlogPost(props) {
   const post = props.data.markdownRemark;
 
   const disqusConfig = {
-    url: `http://www.yuuniworks.com/blog${post.fields.slug}`,
-    identifier: `http://www.yuuniworks.com/blog${post.fields.slug}`,
+    url: ``,
+    identifier: ``,
     title: post.frontmatter.title,
   };
 
   return (
     <Layout location={props.location}>
       <SectionContainer colorNumber="1" isTop>
-        <SectionHeader colorNumber="1" text="Yuuniworks Blog" link="/blog/" />
+        <SectionHeader colorNumber="1" text="Dan\'s Blog" link="/blog/" />
         <div css={styles.container}>
           <Link to="/blog/" css={styles.backButton}>
             <FontAwesomeIcon

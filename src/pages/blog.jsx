@@ -89,9 +89,9 @@ const BlogPage = ({ data, location }) => {
 
         <SEO
           metaData={{
-            title: 'Yuuniworks Blog',
+            title: 'Dan Jacobsen\'s Blog',
             description:
-              '島根のフルスタックエンジニア「Yuuniworks」のブログです。技術的なネタを記録しています。',
+              'Posts about code, design, marketing, writing.',
           }}
         />
 
@@ -101,7 +101,7 @@ const BlogPage = ({ data, location }) => {
               rel: 'alternate',
               type: 'application/atom+xml',
               href: rssPath,
-              title: 'RSS for Yuuniworks Blog',
+              title: 'RSS for Dan Jacobsen\'s Blog',
             },
           ]}
         />

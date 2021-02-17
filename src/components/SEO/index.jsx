@@ -27,7 +27,7 @@ function SEO({ postNode, metaData }) {
 
   // override _metadata if node is blogpost
   if (postNode) {
-    _metaData.title = `${postNode.frontmatter.title} / Yuuniworks Blog`;
+    _metaData.title = `${postNode.frontmatter.title} / Dan\'s Blog`;
     _metaData.description = postNode.excerpt;
     _metaData.keywords = config.siteKeywords;
     _metaData.image = config.siteUrl + postNode.frontmatter.thumbnail;
