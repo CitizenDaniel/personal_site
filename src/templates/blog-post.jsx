@@ -196,18 +196,12 @@ export default function BlogPost(props) {
           </WhiteBox>
 
           <WhiteBox>
-            <aside css={styles.comments}>
-              <DiscussionEmbed shortname="yuuniworks" config={disqusConfig} />
-            </aside>
-          </WhiteBox>
-
-          <WhiteBox>
             <footer css={styles.footer}>
               <div>
                 <p>田村 翔太</p>
                 <p>
-                  <Link to="/">Yuuniworks</Link>
-                  代表。島根県浜田市を拠点に活動するフルスタックエンジニアです。Python/Node.js/GoによるAPIの開発、React/Vue.js等によるSPAの開発などを行っています。
+                  <Link to="/">danjacobsen.com</Link>
+                  
                 </p>
               </div>
             </footer>
