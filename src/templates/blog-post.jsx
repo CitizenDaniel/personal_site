@@ -194,17 +194,6 @@ export default function BlogPost(props) {
             </article>
           </WhiteBox>
 
-          <WhiteBox>
-            <footer css={styles.footer}>
-              <div>
-                <p>Dan Jacobsen</p>
-                <p>
-                  <Link to="/">danjacobsen.com</Link>
-                  
-                </p>
-              </div>
-            </footer>
-          </WhiteBox>
 
           <Link to="/blog/" css={styles.backButton}>
             <FontAwesomeIcon
