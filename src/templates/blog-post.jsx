@@ -181,7 +181,7 @@ export default function BlogPost(props) {
               icon="arrow-left"
               style={styles.backButton.arrow}
             />
-            記事一覧に戻る
+            Return to articles
           </Link>
 
           <WhiteBox>
