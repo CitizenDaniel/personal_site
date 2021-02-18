@@ -181,7 +181,7 @@ export default function BlogPost(props) {
               icon="arrow-left"
               style={styles.backButton.arrow}
             />
-            Return to articles
+            Articles
           </Link>
 
           <WhiteBox>
@@ -211,7 +211,7 @@ export default function BlogPost(props) {
               icon="arrow-left"
               style={styles.backButton.arrow}
             />
-            Return to Articles
+            Articles
           </Link>
         </div>
         <SEO postNode={post} />
