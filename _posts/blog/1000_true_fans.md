@@ -2,8 +2,8 @@
 layout: blog
 title: Find your Niche
 summary: Kevin Kelly's famous essay on how to make things people love.
-date: '2020-02-17T17:03:00+08:00'
-dateModified: '2020-02-17T17:03:00+08:00'
+date: '2020-02-17T17:03:00-08:00'
+dateModified: '2020-02-17T17:03:00-08:00'
 thumbnail: /blogImages/2020-2-17_1000_true_fans.png
 ---
 
