@@ -83,7 +83,7 @@ class RipIe extends React.Component {
           <li>
             -{' '}
             <a
-              href="https://www.google.co.jp/chrome/index.html"
+              href="https://www.google.com/chrome/index.html"
               css={styles.link}
               target="_blank"
               rel="noopener noreferrer"
@@ -94,7 +94,7 @@ class RipIe extends React.Component {
           <li>
             -{' '}
             <a
-              href="https://www.mozilla.org/ja/firefox/"
+              href="https://www.mozilla.org/firefox/"
               css={styles.link}
               target="_blank"
               rel="noopener noreferrer"
@@ -105,7 +105,7 @@ class RipIe extends React.Component {
           <li>
             -{' '}
             <a
-              href="https://www.apple.com/jp/safari/"
+              href="https://www.apple.com/safari/"
               css={styles.link}
               target="_blank"
               rel="noopener noreferrer"
@@ -116,7 +116,7 @@ class RipIe extends React.Component {
           <li>
             -{' '}
             <a
-              href="https://www.microsoft.com/ja-jp/windows/microsoft-edge"
+              href="https://www.microsoft.com/windows/microsoft-edge"
               css={styles.link}
               target="_blank"
               rel="noopener noreferrer"
