@@ -9,8 +9,6 @@ thumbnail: /blogImages/2020-2-17_1000_true_fans.png
 
 ![1000 True Fans](./2020-2-17_1000_true_fans.png)
 
-<p> Kevin Kelly figured out the thing that I thrashed against for literally years before figuring out: how to find your niche. Even products that grow to be massive industries start with a few people who are interested enough in it to really get engaged. If there's one thing I wish I had read when starting out making things, it's this essay.</p>
-
-<p>I still find myself forgetting that sometimes.</p>
+<p> Even products that grow to be massive industries start with a few people who are interested enough in it to really get engaged. If there's one thing I wish I had read when starting out making things, it's this essay by Kevin Kelly.</p>
 
 * [1000 True Fans](https://kk.org/thetechnium/1000-true-fans/)
