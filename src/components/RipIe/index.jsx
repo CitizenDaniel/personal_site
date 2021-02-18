@@ -77,7 +77,7 @@ class RipIe extends React.Component {
         </div>
 
         <p>
-          This site does not current support Internet Explorer.
+          This site does not support Internet Explorer. Check out these alternatives!
         </p>
         <ul css={{ float: 'left' }}>
           <li>
