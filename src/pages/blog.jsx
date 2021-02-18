@@ -63,7 +63,7 @@ const BlogPage = ({ data, location }) => {
   return (
     <Layout location={location}>
       <SectionContainer colorNumber="1" isTop>
-        <SectionHeader colorNumber="1" text="Yuuniworks Blog" />
+        <SectionHeader colorNumber="1" text="Dan's Blog" />
         <div css={styles.container}>
           <a href={rssPath} css={styles.rssLink}>
             <img src={rssSvg} alt="rss" />

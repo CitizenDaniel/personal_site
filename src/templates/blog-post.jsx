@@ -174,7 +174,7 @@ export default function BlogPost(props) {
   return (
     <Layout location={props.location}>
       <SectionContainer colorNumber="1" isTop>
-        <SectionHeader colorNumber="1" text="Dan\'s Blog" link="/blog/" />
+        <SectionHeader colorNumber="1" text="Dan's Blog" link="/blog/" />
         <div css={styles.container}>
           <Link to="/blog/" css={styles.backButton}>
             <FontAwesomeIcon
