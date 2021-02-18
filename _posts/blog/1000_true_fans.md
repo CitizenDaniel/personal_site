@@ -4,7 +4,7 @@ title: Find your Niche
 summary: Kevin Kelly's famous essay on how to make things people love.
 date: '2020-02-17T05:03:00+08:00'
 dateModified: '2020-02-17T05:03:00-08:00'
-thumbnail: /blogImages/20180409.png
+thumbnail: /blogImages/2020-2-17_1000_true_fans.png
 ---
 
 ![1000 True Fans](./2020-2-17_1000_true_fans.png)
@@ -13,4 +13,4 @@ thumbnail: /blogImages/20180409.png
 
 <p>I still find myself forgetting that sometimes.</p>
 
-* [1000 True Fans](https://www.gatsbyjs.org/tutorial/)
+* [1000 True Fans](https://kk.org/thetechnium/1000-true-fans/)
