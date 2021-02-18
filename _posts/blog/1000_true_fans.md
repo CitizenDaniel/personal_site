@@ -7,13 +7,10 @@ dateModified: '2001-01-01T12:00:00+01:00'
 thumbnail: /blogImages/20180409.png
 ---
 
-![Alt text here](./1000_true_fans.png)
+![1000 True Fans](./1000_true_fans.png)
 
+<p> Kevin Kelly figured out the thing that I thrashed against for literally years before figuring out: how to find your niche. Even products that grow to be massive industries start with a few people who are interested enough in it to really get engaged. If there's one thing I wish I had read when starting out making things, it's this essay.</p>
 
-## Impressions
-- asdf
+<p>I still find myself forgetting that sometimes.</p>
 
-
-## Reference
-* [Gatsby](https://www.gatsbyjs.org/tutorial/)
-
+* [1000 True Fans](https://www.gatsbyjs.org/tutorial/)
