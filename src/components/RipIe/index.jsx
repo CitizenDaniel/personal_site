@@ -77,8 +77,7 @@ class RipIe extends React.Component {
         </div>
 
         <p>
-          当サイトはInternet
-          Explorerに対応しておりません。より性能のよい、下記のようなブラウザを使ってみませんか？
+          This site does not current support Internet Explorer.
         </p>
         <ul css={{ float: 'left' }}>
           <li>
@@ -89,7 +88,7 @@ class RipIe extends React.Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Chrome（オススメ）
+              Chrome
             </a>
           </li>
           <li>
